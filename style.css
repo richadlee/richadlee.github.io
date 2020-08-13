@@ -1,0 +1,114 @@
+/* Header */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 17px;
+}
+header .mobile {
+    display: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; 
+    margin-top: 40px;
+}
+header{
+    text-align: center;
+    height: 120px;
+    padding: 20px;
+    background-image: url("images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+header .logo a{
+    background-image: url("images/Logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    top: -50px;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    text-indent: -99999px;
+}
+/* Header Responsive Rules */
+@media screen and (max-width:787px){
+    header{
+        height: 140px;
+    }
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+}
+/* Body */
+body{
+    background-color: white;
+    margin: 0;
+}
+.feature-box{
+    background-color: white;
+    color: gray;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-box.sales div{
+    background-color: pink;
+}
+.feature-box div{
+    margin: 1px;
+    width: 100%;
+}
+.feature-box.closeouts div{
+    background-color: red;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 20px;
+    color: grey;
+    flex-wrap: wrap;
+}
+.feature figure{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    
+}
+.feature figure img{
+    margin-top: 5px;
+    border: 1px solid white;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: grey 0 0 10px;
+}
+/* Body Responsive Rules
+@media screen and (max-width:956px){
+    .feature{
+        display: block;
+    }
+} */
+
+/* Footer */
+footer{
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
+    color: grey;
+}
