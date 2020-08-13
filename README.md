@@ -1,2 +1,0 @@
-# richadlee.github.io
-Website
